@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for Name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Name"
+    android:inputType="text"
+    android:padding="16dp" />
+
+    <!-- EditText for Number -->
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Number"
+    android:inputType="phone"
+    android:padding="16dp" />
+
+    <!-- EditText for Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:padding="16dp" />
+
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="16dp" />
+
+    <!-- EditText for Role -->
+    <EditText
+        android:id="@+id/editTextRole"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Role"
+    android:inputType="text"
+    android:padding="16dp" />
+
+    <!-- EditText for Schedule ID -->
+    <EditText
+        android:id="@+id/editTextScheduleId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Schedule ID"
+    android:inputType="text"
+    android:padding="16dp" />
+
+    <!-- EditText for Subject -->
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Subject"
+    android:inputType="text"
+    android:padding="16dp" />
+
+    <!-- EditText for Absences -->
+    <EditText
+        android:id="@+id/editTextAbsences"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Absences"
+    android:inputType="number"
+    android:padding="16dp" />
+
+    <!-- Button for Add User -->
+    <Button
+        android:id="@+id/buttonAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User" />
+
+    <!-- Button for Update User -->
+    <Button
+        android:id="@+id/buttonUpdateUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update User" />
+
+    <!-- Button for Delete User -->
+    <Button
+        android:id="@+id/buttonDeleteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Entrer PDF nom"
+    android:inputType="text"
+    android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonUploadPdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload PDF" />
+
+</LinearLayout>

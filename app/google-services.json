@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733323529562",
+    "project_id": "applicationessect-953cd",
+    "storage_bucket": "applicationessect-953cd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733323529562:android:08945d63c9989a88e17763",
+        "android_client_info": {
+          "package_name": "com.example.applicationessect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUyx96GnaHNdE4JpvfENKb69NjJ6PrbQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
